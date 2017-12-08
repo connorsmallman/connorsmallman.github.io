@@ -1,0 +1,198 @@
+/*---start of the cascading style sheet (css), so named because the styles overide the previous ones as they are further down the page (cascading down the page)---*/
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle;
+  border: 0; }
+
+button {
+  background-color: transparent;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none; }
+
+html {
+  font-size: 10px; }
+
+body {
+  font-family: Helvetica, Arial, sans serif; }
+
+.question {
+  font-family: Garamond;
+  font-size: 3rem;
+  font-style: italic;
+  margin-top: 7rem;
+  text-align: center; }
+
+.item-if, .item-then {
+  font-weight: bold;
+  font-size: 5.2rem; }
+  @media screen and (min-width: 501px) and (max-width: 900px) {
+    .item-if, .item-then {
+      font-size: 7.2rem; } }
+  @media screen and (min-width: 901px) {
+    .item-if, .item-then {
+      font-size: 9.2rem; } }
+
+.tagline {
+  font-weight: normal;
+  font-size: 24px; }
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #33CCFF; }
+
+button {
+  background: red;
+  border-radius: 50%;
+  height: 9rem;
+  margin-top: 11rem;
+  width: 9rem; }
+  button:focus {
+    outline: none; }
+  button:hover {
+    cursor: pointer;
+    font-size: 1.8rem;
+    height: 10.5rem;
+    transform: rotate(-25deg);
+    transition: width .1s, height .1s;
+    width: 10.5rem; }
+  button p {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold; }
+
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.slot-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 92rem;
+  margin: 0 2rem;
+  width: 100%; }
+
+.slot-machine {
+  margin: 0 auto;
+  margin-top: 13rem;
+  width: 100%; }
+
+.slot-machine-mask {
+  width: 100%;
+  height: 15rem;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  margin-bottom: -4rem; }
+
+.slot-machine-items-container {
+  position: absolute; }
+
+.slot-machine-item {
+  background-size: contain;
+  margin: 0;
+  max-height: 15rem;
+  min-height: 15rem;
+  padding: 0;
+  text-align: center; }
+
+.rob-container {
+  display: flex;
+  justify-content: flex-end;
+  height: 20rem;
+  width: 100%; }
+
+.quotes {
+  height: 20rem; }
+
+/*# sourceMappingURL=styles.css.map */

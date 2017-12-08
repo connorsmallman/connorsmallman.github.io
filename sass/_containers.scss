@@ -1,0 +1,55 @@
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.slot-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 92rem;
+  margin: 0 2rem;
+  width: 100%;
+}
+
+.slot-machine {
+  margin: 0 auto;
+  margin-top: 13rem;
+  width: 100%;
+}
+
+.slot-machine-mask {
+  width: 100%;
+  height: 15rem;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  margin-bottom: -4rem;
+}
+
+.slot-machine-items-container {
+  position: absolute;
+}
+
+.slot-machine-item {
+  background-size: contain;
+  margin: 0;
+  max-height: 15rem;
+  min-height: 15rem;
+  padding: 0;
+  text-align: center;
+}
+
+.rob-container {
+  display: flex;
+  justify-content: flex-end;
+  height: 20rem;
+  width: 100%;
+}
+
+.quotes {
+  height: 20rem;
+}
